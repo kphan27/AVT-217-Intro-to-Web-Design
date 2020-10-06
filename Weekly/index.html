@@ -2,21 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Portfolio of Kristie Phan</title>
-<style type="text/css">
-body {
-	font-size:0.8em
-}
+</head>
+<style>
 #wrapper {
-	width: 100%;
+	column-count: 3;
 	float: left;
 	margin: 20px 20px 0 20px;
 	line-height: 1.5em;
-}
-header {
-	width:100%;
-	float: left;
 }
 #exercise {
 	width: 65%;
@@ -27,10 +20,6 @@ header {
 	width: 65%;
 	float: left;
 	margin-right: 0px;
-	-moz-column-count: 2;
-  	-moz-column-gap: 1em;
-  	-webkit-column-count: 2;
-  	-webkit-column-gap: 1em;
   	column-count: 2;
   	column-gap: 1em;
 }
@@ -39,53 +28,13 @@ header {
 	float: left;
 	margin-left:3%;
 	margin-right:2%;
-/*	margin-top:-38px;*/
 }
 p, h1, h2, h3, h4, dd, dt, dl{
 	font-family: gill sans;
-	margin-bottom: 0px;
+	margin-bottom: 1px;
 	padding-bottom: 0px;
-	margin-top: 0px;
+	margin-top: 1px;
 	padding-top: 0px;
-}
-h1 {
-	font size: 6em;
-	font-weight: lighter;
-	color:#0058AE;
-}
-h2 {
-	font-size: 1.2em;
-	font-weight: lighter;
-	color: #999;
-}
-h3 {
-	font-size: 1.25em;
-	font-weight: normal;
-	margin-top: 15px;
-}
-dt {
-	font-size: 1em;
-	font-weight: normal;
-	color:#0058AE;
-	margin-left: 18px;
-	margin-top: 8px;
-	padding-top: 8px;
-}
-dd {
-	font-family: "myriad pro";
-	font-size: .9em;
-	font-weight: normal;
-	margin-left: 40px;
-	margin-top: 1px;
-	padding-top: 1px;
-}
-h6 {
-	font-family: myriad pro;
-	font-size: 12px;
-	font-weight: normal;
-	margin-left: 44px;
-	margin-top: 1px;
-	padding-top: 1px;
 }
 a:link {
 	color: #006600;
@@ -100,44 +49,29 @@ a:visited {
 	text-decoration: none;	
 }
 </style>
-</head>
 
 <body>
-<a name="top"></a>
-
-<div id="wrapper">
 	<h1>AVT 217 - Introduction to Web Design</h1>
 	<h2>Kristie Phan, Fall 2020</h2>
-	<br>
-<header>
-	<div id="exercise">
-		<h3>Weekly Exercises</h3>
-	</div>
-		<div class="project">
-		<h3>Projects</h3>
-	</div>
-</header>
 
-<div class="weekly">
-
+<div id="wrapper">
+	<div id="weekly">
+	<h3>Weekly Exercises</h3>
 <dl>
 	<dt>Week 1</dt>
 	<dd><a href="W1/polarbearcub.jpg" target="_blank">First Image</a></dd>
 	<dd><a href="W1/jenskitchen.html" target="_blank">LWD Chapter 2 (Exercise 1)</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 2</dt>
 	<dd><a href="W2/bistro/index.html" target="_blank">LWD Chapter 4 Exercise</a></dd>
 	<dd><a href="W2/w3schools_exercise1.PNG" target="_blank">w3schools HTML 5 tutorial PART 1</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 3</dt>
 	<dd><a href="W3/lwd24-1.html" target="_blank">LWD Chapter 24 (Exercise 1)</a></dd>
 	<dd><a href="W3/lwd24-2.html" target="_blank">LWD Chapter 24 (Exercise 2)</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 4</dt>
 	<dd><a href="W4/cooking.html" target="_blank">LWD Chapter 11 Exercise</a></dd>
@@ -145,7 +79,6 @@ a:visited {
 	<dd><a href="W4/div1_clean2.html" target="_blank">Photoshop Mock-up to Webpage 1</a></dd>
 	<dd><a href="W4/w3schools_css_exercise1.PNG" target="_blank">w3schools CSS tutorial PART 1</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 5</dt>
 <!--<dd>Chapter 5: Marking Up Text exercise 5-1 Marking up a recipe</dd>-->
@@ -156,7 +89,6 @@ a:visited {
 	<dd><a href="W5/header.html" target="_blank">Photoshop Mock-up to Webpage 2 (Header)</a></dd>
 	<dd><a href="W5/w3schools_exercise2.png" target="_blank">w3schools HTML 5 tutorial PART 2</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 6</dt>
 	<dd><a href="W6/index.html" target="_blank">LWD Chapter 7 (Exercise 1)</a></dd>
@@ -165,7 +97,6 @@ a:visited {
 	<dd><a href="W6/div3.html" target="_blank">Photoshop Mock-Up to Webpage 3 (Multi-column Layout)</a></dd>
 	<dd><a href="W6/w3schools_css_exercise2.png" target="_blank">w3schools CSS tutorial PART 2</a></dd>
 </dl>
-
 <dl>
 	<dt>Week 7</dt>
 	<dd>Student course homepage into two or three column layout </dd>
@@ -173,13 +104,11 @@ a:visited {
 	<dd>Chapter 13: Colors and Backgrounds exercises</dd>
 	<dd>W3school CSS tutorial part 3 </dd>
 </dl>
-
 <dl>
 	<dt>Week 8</dt>
 	<dd>Chapter 15: Floating and Positioning exercises</dd>
 	<dd>Webfonts exercise</dd>
 </dl>
-
 <dl>
 	<dt>Week 9</dt>
 <!--	<dd>Chapter 17: Responsive Web Design exercise</dd>-->
@@ -188,27 +117,21 @@ a:visited {
 <!--<dd>W3school Slideshow (optional)</dd>
 <dd>W3school Slideshow Gallery(optional)</dd>-->
 </dl>
-
 <dl>
 	<dt>Week 10</dt>
 	<dd>My Lightbox </dd>
 <!--<dd>W3school Modal Image or the original Lightbox</dd>-->
 	<dd>W3school Parallax Scrolling (bonus point)</dd>
 </dl>
-
 <dl>
 	<dt>Week 11</dt>
-	<dd>Chapter 8: Table Markup exercise 8-4 (8-1 to 8-3 are optional exercises) </dd>
+	<dd>Chapter 8: Table Markup exercise 8-4 (8-1 to 8-3 are optional exercises)</dd>
 	<dd>My Nivo Slider</dd>
 </dl>
-
-<br>
-	<h6><a href="#top">Back to the top!</a></h6>
 </div><!---"weekly" ends--->
 
-
-<div class="project">
-
+<div id="Projects">
+	<h3>Projects</h3>
 <dl>
 	<dt>Project: Web Site Design and Development</dt>
 	<dd><a href="../project/study/Creative Boom Sitemap.pdf" target="_blank">Study on Website Structure (Site Map)</a></dd>
@@ -220,7 +143,7 @@ a:visited {
 	<dd><a href="../project/process/design_brief.html" target="_blank">Design Brief</a></dd>
 	<dd><a href="../project/process/my_sitemaps.html" target="_blank">Site Maps</a></dd>
 	<dd><a href="../project/process/my_moodboards.html" target="_blank">Mood Boards</a></dd>
-	<dd><a href="../project/process/my_wireframes.html" target="_blank">Sketches/wireframes</a></dd>
+	<dd><a href="../project/process/my_wireframes.html" target="_blank">Wireframes Sketches</a></dd>
 	<dd>Initial Mockups #1 </dd>
 	<dd>Initial mockups #2 </dd>
 	<dd>Revised Mockups #1 </dd>
@@ -232,10 +155,6 @@ a:visited {
 	<dd>Final website</dd>
 </dl>
 </div><!---"project" ends--->
-
-<footer>
-	&nbsp;
-</footer>
 </div><!-- "wrapper" ends -->
 
 </body>
