@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'advent_probold';
+    src: url('adventpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'abhaya_librebold';
+    src: url('AbhayaLibre-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: 'advent_probold';
+}
+h2 {
+	font-family: 'abhaya_librebold';
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+p {
+	font-family: 'Inconsolata', monospace;
+}
