@@ -8,10 +8,20 @@
     	text-align: center;
     	margin-top: 2em;
     	background-color: #c09ebc;
-    }
+}
     h1, h2 {
     	color:white;
-    }
+}
+    .column {
+        float:left;
+        width: 32%;
+        padding:10px;
+}
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+}
     img {
         max-width: 900px;
         width: 90%;
@@ -26,7 +36,17 @@
     <hr>
 	<div id="wrapper">
         <h2>Homepage + Portfolio</h2>
-            <img src="images/Home Refined.png" alt="Homepage">
+    <div class="row">
+        <div class="column">
+            <img src="images/Home Refined1.png" alt="Homepage1" width="100%;">
+        </div>
+        <div class="column">
+            <img src="images/Home Refined.png" alt="Homepage" width="100%;">
+        </div>
+        <div class="column">
+            <img src="images/Featured.png" alt="Homepage Feature" width="100%;">
+        </div>
+    </div>
         <hr>
         <h2>Homepage > Portfolio > Mix Media (Sample Page)</h2>
             <img src="images/Portfolio sample Refined.png" alt="Portfolio Sample">
