@@ -5,8 +5,8 @@
   overflow: hidden;
   position: relative;
   width: 1300px;
-  padding-top: 140px;
-  padding-bottom: 46px;
+  padding-top: 740px;
+  padding-bottom: 60px;
   margin: 0 auto;
   border-top: #D9D5D5 1px solid;
 }
@@ -15,7 +15,7 @@
   overflow: hidden;
   position: relative;
   width: 1300px;
-  padding-bottom: 46px;
+  padding-bottom: 60px;
   margin: 0 auto;
   border-top: #D9D5D5 1px solid; 
 }
@@ -114,9 +114,9 @@
 
 .content-details p {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-family: arial;
-  line-height: 22px;
+  line-height: 26px;
 }
 
 .fadeIn-bottom {
