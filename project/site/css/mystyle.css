@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-size: 22px;
+  font-family: Candara;
+}
+
+h2 {
+  padding-top: 70px;
+  font-size: 35px;
+  text-transform:uppercase;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 100px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Candara;
+  letter-spacing: 1px;
+  color: black;
+  text-transform:uppercase; 
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+}
+
+img {
+  margin-right: 0.4em;
+}
+
+nav {
+  width: 100%;
+  background: #e2c0f7;
+  overflow: auto;
+}
+
+.nav ul {
+  float:right;
+  margin-right: 38px;
+}
+
+.nav ul, li {
+  display: inline-block;
+  padding: 9px 20px;
+}
+
+.nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 8px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 550;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color:#bf536d;
+  font-weight: 550;
+  text-decoration:underline;
+}
+/*Navigation bar Section ends*/
+
+#about {
+  overflow: hidden;
+  position: relative;
+  padding: 10px 183px;
+  text-align: left;
+  align-items: center;
+}
+
+/*Footer Content*/
+.copyright {
+  overflow: hidden;
+  padding: 55px;
+  background-image: url("../images/witewall_3.png");
+}
+
+.copyright p {
+  float:left;
+  padding-left: 47px;
+  font-size: 18px;
+  font-family: arial;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.social-icons {  
+  position: relative;
+  float:right;
+  padding: 15px 32px 0px;
+  height: 5px;
+  list-style: none;
+  display:inline-block;
+}
+
+.fa {
+  padding: 12px;
+  width: 25px;
+  margin: 100px -18px -50px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #8173b3;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8173b3;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #8173b3;
+  color: white;
+}
+/*Footer Content ends*/

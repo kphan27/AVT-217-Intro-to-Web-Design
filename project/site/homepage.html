@@ -1,73 +1,187 @@
 <!DOCTYPE html> 
-<html> 
+<html lang="en"> 
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>Kristie Phan</title>
-<link rel="stylesheet" type="text/css" href="css/ ">
-<style>
-	
-</style>
+<link rel="stylesheet" type="text/css" href="css/stylehome.css">
+	<link rel="stylesheet" href="css/stylehover.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body> 
-<div class="wrapper">
-	<header>
-		<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-    	<div class="navbar-header">
-			<div id="logo"><img src="images/KP-Logo.png" alt="logo"></div>
-    		<a class="navbar-brand" href="homepage.html">Kristie Phan</a>
-    	</div>
-	<nav>
-    	<ul>
-    		<li><a href="about.html">About</a></li>
-    		<li><a href="resume.html">Resume</a></li>
-    		<li><a href="contact.html">Contact</a></li>
-    	</ul>
-	</nav>
-		<div class="container">
-			<h1><img src="images/ " alt="Welcome to my Creative Space"></h1>
-			<p>Graphic Design and Fine Arts</p>
-			<button onclick="document.location='about.html'"> Meet the Artist</button>
-		</div>
-	<hr>
-	</div></nav>
-	</header>
+<body>
+
+<header class="header-area">
+<nav class="navbar navbar-expand-md navbar-dark">
+	<a class="navbar-brand" href="#">
+      	<img alt="Logo" class="navbar-brand-icon" src="images/KP-Logo.png" width="70" height="70">
+      	<span>Kristie Phan</span>
+    </a>
+
+<div class="nav">
+	<ul>
+    	<li><a href="about.html">About</a></li>
+    	<li><a href="resume.html">Resume</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+</nav>
+	
+<div class="banner">
+	<div class="container">
+		<h1>Welcome to My Creative Space</h1>
+		<p>Graphic Design and Fine Arts</p>
+		<a class="button button-primary" href="about.html">Meet the Artist</a>
+	</div>
+</div>
+</header>
 
 <div id="portfolio">
-	<h2>Portfolio</h2>
-		<a href="mixed-media.html"><img src="images/thumb1.jpg"    id="img1" alt="Mixed-Media"></a>
-    	<a href="painting.html"><img src="images/thumb2.jpg"       id="img2" alt="Painting"></a>
-    	<a href="drawing.html"><img src="images/thumb3.jpg"        id="img3" alt="Drawing"></a>
-    	<a href="still-life.html"><img src="images/thumb4.jpg"     id="img4" alt="Still-Life"></a>
-    	<a href="logo.html"><img src="images/thumb5.jpg"           id="img5" alt="Logo"></a>
-    	<a href="advertisement.html"><img src="images/thumb6.jpg"  id="img6" alt="Advertisement"></a>
-	<hr>
-	<h2>Feature Artworks</h2>
-		<a href="images/(FA) Critical Tides.png" data-lightbox="photo"> <img src="images/thumb7.jpg" alt="Critical Tides"></a>
-		<a href="images/(FA) Reflective Maze.png" data-lightbox="photo"> <img src="images/thumb8.jpg" alt="Reflective Maze"></a>
-		<a href="images/(FA) Shattered.png" data-lightbox="photo"> <img src="images/thumb9.jpg" alt="Shattered"></a>
-	<hr>
+  <h2>Portfolio</h2>
+
+  <div class="art-container">
+    <div class="content">
+      <a href="mixed-media.html" target="_blank">
+        <div class="content-overlay"></div>
+        <img class="content-image" src="images/thumb1.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3>Mixed-Media</h3>
+      </div>
+    </a>
+  </div>
 </div>
 
-<div id="artist statement">
-	<h3>Artist Statement</h3>
-	<p>I enjoy exploring different use of color using the media materials that I am familiar with to help determine the subject matter’s ultimate appearance to balance the appeal and representation of the work. I primarily use colored pencils and watercolor for imaginative works to evoke certain theme that relates to human thoughts, emotions and experiences. Colored pencil allows me to have control of detail where the soft and blended tones help create contrast and depth whereas using watercolor helps manipulate texture and abstract illusions. As for Graphic Design, I only have a limited amount of work done in the field as a student who just started the concentration, but I found that I enjoy creating logos and advertisement designs.</p>
-	<hr>
+<div class="art-container">
+  <div class="content">
+    <a href="painting.html" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb2.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Painting</h3>
+      </div>
+    </a>
+  </div>
 </div>
+
+<div class="art-container">
+  <div class="content">
+    <a href="drawing.html" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb3.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Drawing</h3>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="art-container">
+  <div class="content">
+    <a href="still-life.html" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb4.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Still-Life</h3>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="art-container">
+  <div class="content">
+    <a href="logo.html" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb5.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Logo</h3>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="art-container">
+  <div class="content">
+    <a href="advertisement.html" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb6.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Advertisement</h3>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<div id="featured">
+  <h2>Featured Artworks</h2>
+
+<div class="art-container">
+  <div class="content">
+    <a href="images/(FA) Critical Tides.png" data-lightbox="photo">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb7.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Critical Tides</h3>
+          <p>18 x 24<br>Arylic paint pour</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="art-container">
+  <div class="content">
+    <a href="images/(FA) Reflective Maze.png" data-lightbox="photo">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb8.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Reflective Maze</h3>
+          <p>17 x 15<br>Colored pencil</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  <div class="art-container">
+  <div class="content">
+    <a href="images/(FA) Shattered.png" data-lightbox="photo">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="images/thumb9.jpg">
+        <div class="content-details fadeIn-bottom">
+          <h3>Shattered</h3>
+          <p>14 x 19<br>Watercolour</p>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<div id="artist-statement">
+	<h2>Artist Statement</h2>
+	<p>I enjoy exploring different use of color using the media materials that I am familiar with to help determine the subject matter’s ultimate appearance to balance the appeal and representation of the work. I primarily use colored pencils and watercolor for imaginative works to evoke certain theme that relates to human thoughts, emotions and experiences. Colored pencil allows me to have control of detail where the soft and blended tones help create contrast and depth whereas using watercolor helps manipulate texture and abstract illusions. As for Graphic Design, I only have a limited amount of work done in the field as a student who just started the concentration, but I found that I enjoy creating logos and advertisement designs.</p>
+</div>
+
+<hr>
 
 <footer>
-	<div class="logo"></div>
-		<p class="little">Site Designed by Kristie Phan <br> Copyright @ Kristie Phan 2020</p>
-	<div class="social-footer-icons">
+<div class="copyright">
+	<p><small>Site Designed by Kristie Phan<br>Copyright @ Kristie Phan 2020</small></p>
+	<div class="social-icons">
     	<ul class="menu simple">
-    		<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    		<li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-    		<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    		<li><a href="https://www.facebook.com/kubiomine/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    		<li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    		<li><a href="https://www.linkedin.com/in/kris-p-6348531b3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
     	</ul>
 	</div>
+</div>
 </footer>
+
+	<script src="js/lightbox-plus-jquery.js"></script>
 
 </div>
 </body> 
-</html> 
+</html>
