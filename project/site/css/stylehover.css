@@ -2,22 +2,20 @@
 
 /*Portfolio Content*/
 #portfolio {
-  overflow: hidden;
   position: relative;
-  width: 1300px;
-  padding-top: 740px;
-  padding-bottom: 60px;
+  width: 70%;
+  padding: 60px 0px;
   margin: 0 auto;
-  border-top: #D9D5D5 1px solid;
+  border-top: #D9D5D5 2px solid;
 }
 
 #featured {
   overflow: hidden;
   position: relative;
-  width: 1300px;
+  width: 70%;
   padding-bottom: 60px;
   margin: 0 auto;
-  border-top: #D9D5D5 1px solid; 
+  border-top: #D9D5D5 2px solid; 
 }
 
 /*
@@ -31,11 +29,11 @@
 
 .art-container {
   padding: 20px;
-  float: left;
   width: 30%;
-  color: black;
-  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
 }
+
 /*
 @media screen and (max-width: 640px){
   .container{
