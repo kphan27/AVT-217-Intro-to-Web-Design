@@ -1,135 +1,273 @@
 @charset "UTF-8";
 
+/** { border: 1px solid red; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*/
+
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  height: auto;
-  font-size: 22px;
-  font-family: Candara;
-}
-
-h2 {
-  padding-top: 70px;
-  font-size: 35px;
-  text-transform:uppercase;
-}
-
-.navbar-brand {
-  float: left;
-  padding: 15px 100px;
-  font-size: 26px;
-  font-weight: bold;
-  font-family: Candara;
-  letter-spacing: 1px;
-  color: black;
-  text-transform:uppercase; 
-  text-decoration: none;
-  display:flex;
-  align-items: center;
-}
-
-img {
-  margin-right: 0.4em;
-}
-
-nav {
-  width: 100%;
-  background: #e2c0f7;
-  overflow: auto;
-}
-
-.nav ul {
-  float:right;
-  margin-right: 38px;
-}
-
-.nav ul, li {
-  display: inline-block;
-  padding: 9px 20px;
-}
-
-.nav a {
-  width: 100px;
-  display: block;
-  padding: 20px 8px;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: 550;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a:hover {
-  color:#bf536d;
-  font-weight: 550;
-  text-decoration:underline;
-}
-/*Navigation bar Section ends*/
-
-#about {
+  min-height: 100%;
   overflow: hidden;
+}
+
+@media screen and (max-width:900px){
+  .nav-links {
+    width: 100%;
+    height: 100%;
+    }
+}
+
+/*ABOUT Section*/
+#about-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
   position: relative;
-  padding: 10px 183px;
-  text-align: left;
-  align-items: center;
-}
-
-/*Footer Content*/
-.copyright {
-  overflow: hidden;
-  padding: 55px;
-  background-image: url("../images/witewall_3.png");
-}
-
-.copyright p {
   float:left;
-  padding-left: 47px;
-  font-size: 18px;
-  font-family: arial;
-  color: white;
-  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 230px;
+  z-index: 0;
+}
+
+.left-side h2 {
+  position: relative;
+  right: 118px;
+  bottom: 20px;
+  font-size: 35px;
+  font-family: Candara;
   text-transform: uppercase;
 }
 
-.social-icons {  
+.left-side img {
+  width: 370px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .7);
+}
+
+.right-side {
   position: relative;
-  float:right;
-  padding: 15px 32px 0px;
-  height: 5px;
-  list-style: none;
-  display:inline-block;
+  float:left;
+  z-index: 0;
+  width: 970px;
+  margin: 100px 0px 100px 10px;
+  padding: 20px;
 }
 
-.fa {
+.right-side h3 {
+  color: grey;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.right-side p {
+  float: left;
+  text-align: left;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+}
+/*ABOUT Section Ends*/
+
+/*RESUME Section*/
+#resume {
+  position: relative;
+  font-family: Georgia;
+  text-align: center;
+  height: 100%
+  min-height: auto;
+  margin: 0 auto;
+}
+
+.resume-top h2 {
+  margin-top: 100px;
+  font-size: 86px;
+  font-weight: normal;
+}
+
+.resume-top h3 {
+  margin-top: -35px;
+  font-size: 22px;
+}
+
+.resume-top h4 {
+  margin-top: -15px;
+  font-family: Calibri;
+  font-size: 21px;
+  font-weight: 500px;
+  color: #75364c;
+}
+
+.resume-top p {
+  margin-top: -10px;
+  font-family: Calibri;
+  font-size: 22px;
+}
+
+#p1 {
+  position: relative;
+  margin: 0 auto;
+  width: 1025px;
+  top: 30px;
+  bottom: 50px;
+  text-align: left;
+  color: gray;
+}
+
+.content-image1 {
+  position: relative;
+  float: left;
+  top: 70px;
+  left: 450px;
+}
+
+.content-image2 {
+  position: relative;
+  float: left;
+  top: 110px;
+  left: 450px;
+}
+
+#style1 {
+  color: #454545;
+}
+
+#style1-1 {
+  color: #454545;
+  text-decoration: underline;
+}
+
+#style2 {
+  color: #7e3850;
+}
+
+.resume-section {
+  position: relative;
+  text-align: left;
+  top: 50px;
+}
+
+.resume-section h2 {
+  margin-left: 440px;
+  text-align: left;
+}
+
+.resume-section p {
+  margin: 0 auto;
+  margin-top: -15px;
+  margin-left: 520px;
+  width: 975px;
+  color: gray;
+  font-family: Calibri;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+ul.resume-list {
+  width: 75%;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+ul.resume-list li {
+  list-style-position: inside;
+  overflow:hidden;
+  width: 360px;
+  margin: 0 450px 5px;
+  float: left;
+}
+
+.resume-link {
+  margin: 70px -80px 150px;
+}
+
+.resume-link p {
+  color: black;
+  font-weight: bold;
+}
+
+.resume-link a:hover {
+  color: #bf536d;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+      max-width: 1000px;
+    padding-left: 90px;
+  }
+}
+/*RESUME Section Ends*/
+
+/*CONTACT Section*/
+input[type=text], select, textarea {
+  width: 100%;
   padding: 12px;
-  width: 25px;
-  margin: 100px -18px -50px;
-  border-radius: 50%;
-  text-decoration: none;
+  border: 2px solid black;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+  font-size: 16px;
+  background-color: #fafbfc;
 }
 
-.fa:hover {
-    opacity: 0.5;
+input[type=submit] {
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: candara;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  border-color: black;
 }
 
-.fa-facebook {
-  background: #8173b3;
-  color: white;
+input[type=submit]:hover {
+  background-color: #e1e0e0;
 }
 
-.fa-instagram {
-  background: #8173b3;
-  color: white;
+.contact h2 {
+  float:left;
+  margin: 100px 220px 50px;
+  white-space: nowrap
 }
 
-.fa-linkedin {
-  background: #8173b3;
-  color: white;
+.form {
+  display: inline-block;
+  float: left;
+  width: 80%;
+  margin: 10px 200px 100px;
+  padding: 20px;
 }
-/*Footer Content ends*/
+
+.form-inline {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 45%;
+    margin-top: 0;
+  }
+}
+/*Contact Section Ends*/
