@@ -24,7 +24,7 @@ body {
 @media screen and (max-width:900px){
   .nav-links {
     width: 100%;
-    height: 100%;
+    height: 50%;
     }
 }
 
